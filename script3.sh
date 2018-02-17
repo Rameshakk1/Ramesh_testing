@@ -9,4 +9,3 @@ rpm -qa | grep -i telnet
 user add demouser
 
 id -a demouser
- 
