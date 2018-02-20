@@ -1,9 +1,10 @@
 #! /bin/bash
 
 # Refersh linux package 
-Yum repolist 
 
-Yum -y instill telnet
+yum repolist 
+
+yum -y instill telnet
 rpm -qa | grep -i telnet
 
 user add demouser
