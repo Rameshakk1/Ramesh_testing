@@ -4,9 +4,9 @@
 
 yum repolist 
 
-yum -y instill telnet
+yum -y instal telnet
 rpm -qa | grep -i telnet
 
-user add demouser
+useradd demouser
 
 id -a demouser
